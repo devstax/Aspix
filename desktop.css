@@ -1,0 +1,38 @@
+/*
+.intro {
+    border-radius: 1px;
+    box-shadow: 5px 5px 500px #fff;
+    margin-top: 2%;
+}
+*/
+
+.inner {
+    margin-top: 5%;
+}
+
+.inner_h3 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+    color: silver;
+}
+
+.inner_p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+    color: silver;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.fas {
+    margin-left: 45%;
+    margin-right: 40%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
