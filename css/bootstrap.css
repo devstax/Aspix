@@ -2575,6 +2575,9 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #343a40;
   border-color: #343a40;
+  width: 100px;
+  padding: 0;
+  margin-left: 5%;
 }
 
 .btn-dark:hover {
@@ -4385,6 +4388,7 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  margin-top: 10%;
 }
 
 .card > hr {
@@ -4410,6 +4414,8 @@ input[type="button"].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+  text-align: center;
+  font-weight: 600;
 }
 
 .card-subtitle {
@@ -4419,6 +4425,8 @@ input[type="button"].btn-block {
 
 .card-text:last-child {
   margin-bottom: 0;
+  text-align: center;
+  font-weight: 500;
 }
 
 .card-link:hover {
@@ -4810,6 +4818,12 @@ input[type="button"].btn-block {
   background-color: #6c757d;
 }
 
+.badge-informational {
+  color: #fff;
+  background-color: #0062cc;
+  text-transform: uppercase;
+}
+
 .badge-secondary[href]:hover, .badge-secondary[href]:focus {
   color: #fff;
   text-decoration: none;
@@ -5030,8 +5044,15 @@ input[type="button"].btn-block {
 
 .alert-dark {
   color: #1b1e21;
-  background-color: #d6d8d9;
+  background-color: #fff;
   border-color: #c6c8ca;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 19px;
 }
 
 .alert-dark hr {
