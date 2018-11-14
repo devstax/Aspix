@@ -393,8 +393,11 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
+  line-height: 1.5;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .display-1 {
@@ -417,6 +420,13 @@ h6, .h6 {
 
 .display-4 {
   font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-4-1 {
+  margin-top: 5%;
+  font-size: 2rem;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -5047,12 +5057,13 @@ input[type="button"].btn-block {
   background-color: #fff;
   border-color: #c6c8ca;
   margin-top: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 80%;
+  margin-left: 20%;
+  margin-right: 25%;
+  width: 60%;
   text-align: center;
   font-weight: 600;
-  font-size: 19px;
+  font-size: 14px;
+  opacity: 0.5;
 }
 
 .alert-dark hr {

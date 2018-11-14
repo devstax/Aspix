@@ -36,3 +36,9 @@
     margin-top: 1%;
     margin-bottom: 4%;
 }
+
+span {
+    font-size: 14px;
+    color: #6c6c6c;
+    font-weight: 600;
+}
